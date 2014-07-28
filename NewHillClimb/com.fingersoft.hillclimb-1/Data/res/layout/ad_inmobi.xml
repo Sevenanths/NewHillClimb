@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:mad="http://schemas.android.com/apk/res/com.fingersoft.hillclimb">
+    <com.inmobi.monetization.IMBanner android:id="@id/banner" adSize="15" appId="4028cbff3a1c0028013a32e9a50701f0" />
+</RelativeLayout>

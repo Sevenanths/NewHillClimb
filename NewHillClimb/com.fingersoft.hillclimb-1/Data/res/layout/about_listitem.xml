@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="left" android:id="@id/about_item_icon" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_moreapps" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="20.0dip" android:layout_gravity="left" android:id="@id/about_item_name" android:paddingTop="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Item" android:layout_weight="1.0" />
+        <TextView android:textSize="13.0dip" android:layout_gravity="left" android:id="@id/about_item_desc" android:paddingTop="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Description" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

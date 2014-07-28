@@ -1,0 +1,1351 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2014-06-17 13:53+0300\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\nLanguage-Team: LANGUAGE <LL@li.org>\nLanguage: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=CHARSET\nContent-Transfer-Encoding: 8bit\n"
+
+#. Text displayed when the player does a flip
+#: src/common/GameLayer.cpp
+msgid "  FLIP\n +1000 "
+msgstr "宙返り\n +1000"
+
+#. Text displayed when the player successfully drives through a loop
+#: src/common/GameLayer.cpp
+msgid "  LOOP\n +1000 "
+msgstr "ループ\n +1000"
+
+#. Shows the cost of an upgrade / unlock in ingame virtual currency. Preserve %d in translation, it's replaced by a number representing the cost
+#: src/common/MainMenuSelectCar.cpp
+#, c-format
+msgid " COST: %s COINS "
+msgstr "費用: %s コイン"
+
+#. Text indicating that the player should touch the screen to continue
+#: src/common/GameLayer.cpp
+msgid " TOUCH TO CONTINUE "
+msgstr "続行するにはタッチ"
+
+#. Text in result screen indicating how many times the player got points for staying in the air
+#: src/common/GameLayer.cpp src/common/GameLayer.cpp
+#, c-format
+msgid "%dxAIR TIME "
+msgstr "%dxエアタイム"
+
+#. Text in result screen indicating how many back flips the player did
+#: src/common/GameLayer.cpp src/common/GameLayer.cpp
+#, c-format
+msgid "%dxBACK FLIP "
+msgstr "%dx後方宙返り"
+
+#. Text in result screen indicating how many (%d) flips the player did
+#: src/common/GameLayer.cpp src/common/GameLayer.cpp
+#, c-format
+msgid "%dxFLIP "
+msgstr "%dx宙返り"
+
+#. Text in result screen indicating how many flips that broke the driver's neck the player did
+#: src/common/GameLayer.cpp src/common/GameLayer.cpp
+#, c-format
+msgid "%dxNECK FLIP "
+msgstr "%dx首宙返り"
+
+#. This text appears if user doesn't have enough coins to unlock the specific item. First %s is replaced with the item name, then the %d are coin numbers
+#: src/common/MainMenuSelectCar.cpp src/common/MainMenuSelectStage.cpp
+#, c-format
+msgid "%s\n\nUnlock cost: %s coins\nYou need %s more coins"
+msgstr "%s\n\nアンロック費用: %s コイン\nあと %s コイン必要です"
+
+#. Text for showing that how much an unlock costs. %s is replaced with the item name user is about to unlock and %d is replaced with the number of coins this unlock will cost
+#: src/common/MainMenuSelectCar.cpp src/common/MainMenuSelectStage.cpp
+#, c-format
+msgid "%s\n\nUnlock cost: %s coins "
+msgstr "%s\n\nアンロック費用: %s コイン"
+
+#. Shows the upgrade cost in coins
+#: src/common/MenuUpgradeButton.cpp
+#, c-format
+msgid "%s\n\nUpgrade cost: %s coins"
+msgstr "%s\n\nアップグレードコスト: %s コイン"
+
+#. Shown to the user when more coins are required to upgrade
+#: src/common/MenuUpgradeButton.cpp src/common/MenuUpgradeButton.cpp
+#, c-format
+msgid "%s\n\nUpgrade cost: %s coins\nYou need %s more coins"
+msgstr "%s\n\nアップグレード費用: %s コイン\nあと %s コイン必要です"
+
+#: src/common/HighscoreMenu.cpp
+#, c-format
+msgid "%s HIGH SCORES"
+msgstr "%s ハイスコア"
+
+#. Menu title text showing how far the player needs to go to reach the next level (%s is the stage, first %d is level, second %d is the distance); LVL is short for level
+#: src/common/MainMenuCar.cpp
+#, c-format
+msgid "%s: LVL %d (%dm)"
+msgstr "%s: レベル%d (%dm)"
+
+#. Text in game result indicating all-time record in stage
+#: src/common/GameLayer.cpp
+#, c-format
+msgid "(best: %dm)"
+msgstr "(最高: %dm)"
+
+#. Text in result screen indicating the value of coins collected
+#: src/common/GameLayer.cpp
+#, c-format
+msgid "+%d COINS "
+msgstr "+%d コイン"
+
+#. Upgrade title
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp
+msgid "4WD"
+msgstr "4WD"
+
+#. Quad bike vehicle description
+#: src/common/PlayerCarManager.cpp
+msgid "4x4 quad bike with almost the same agility as the bike offers you a different ride."
+msgstr "4x4 クワッドバイクはオートバイと同じくらい敏しょうですが、乗り心地が違います。"
+
+#. Button for displaying the credits view
+#: src/common/MainMenuSelectCar.cpp src/common/MenuAbout.cpp
+#: src/common/MenuMore.cpp
+msgid "ABOUT"
+msgstr "詳細"
+
+#. In app product that removes ads from the game
+#: src/common/InAppPurchaseMenu.cpp
+msgid "AD FREE"
+msgstr "広告非表示"
+
+#. Aerodynamics upgrade title
+#: src/common/PlayerCarManager.cpp
+msgid "AERODYNAMICS"
+msgstr "エアロダイナミクス"
+
+#. Text indicating the player received a bonus for staying in the air
+#: src/common/GameLayer.cpp
+msgid "AIR TIME\n"
+msgstr "エアタイム\n"
+
+#. Text indicating the player received a bonus for staying in the air
+#: src/common/GameLayer.cpp
+#, c-format
+msgid "AIR TIME\n +%d "
+msgstr "エアタイム\n +%d"
+
+#. Alien planet level title (weird slimy planet with very slippery surface)
+#: src/common/Stage.cpp
+msgid "ALIEN PLANET"
+msgstr "エイリアンの惑星"
+
+#. Ambulance vehicle name
+#: src/common/PlayerCarManager.cpp
+msgid "AMBULANCE"
+msgstr "救急車"
+
+#. Arctic level title
+#: src/common/Stage.cpp
+msgid "ARCTIC"
+msgstr "北極圏"
+
+#. Arctic cave title
+#: src/common/Stage.cpp
+msgid "ARCTIC CAVE"
+msgstr "北極圏の洞穴"
+
+#. boost upgrade description
+#: src/common/PlayerCarManager.cpp
+msgid "Automatic boost gives additional speed for a small duration. Upgrade increases boost power."
+msgstr "オートブーストは短時間にスピードアップします。アップグレードはブーストパワーを増加します"
+
+#. Button that takes the user back to previous menu
+#. //////////////////////////////////////////////////////////////////////////
+#: src/common/HighscoreMenu.cpp src/common/InAppPurchaseMenu.cpp
+#: src/common/LanguageMenu.cpp src/common/MenuAbout.cpp
+#: src/common/MenuControls.cpp src/common/MenuControls.cpp
+#: src/common/MenuMore.cpp
+msgid "BACK"
+msgstr "戻る"
+
+#. Text displayed when the player does a back flip
+#: src/common/GameLayer.cpp
+msgid "BACK FLIP\n +1000 "
+msgstr "後方宙返り\n +1000"
+
+#. Upgrade title
+#: src/common/PlayerCarManager.cpp
+msgid "BATTERY"
+msgstr "バッテリー"
+
+#. Beach level title
+#: src/common/Stage.cpp
+msgid "BEACH"
+msgstr "砂浜"
+
+#. Text indicating the player received a bonus for staying in the air for long time
+#: src/common/GameLayer.cpp
+msgid "BIG AIR TIME\n"
+msgstr "長いエアタイム\n"
+
+#. Text indicating the player received a bonus for staying in the air for long time
+#: src/common/GameLayer.cpp
+#, c-format
+msgid "BIG AIR TIME\n   +%d "
+msgstr "長いエアタイム\n   +%d"
+
+#. Big monster truck "big finger" vehicle name
+#: src/common/PlayerCarManager.cpp
+msgid "BIG FINGER"
+msgstr "ビックフィンガー"
+
+#. Boost upgrade title (boost gives additional speed for a small duration)
+#: src/common/PlayerCarManager.cpp
+msgid "BOOST"
+msgstr "ブースト"
+
+#. Text for the button where the car brakes
+#: src/common/MenuControls.cpp
+msgid "BRAKE"
+msgstr "ブレーキ"
+
+#. Shows the best score user has made in that level: For example: "Best: 1352m". Please preserve the %d.
+#: src/common/MainMenuSelectStage.cpp
+#, c-format
+msgid "Best: %dm"
+msgstr "ベスト: %dm"
+
+#. Police car description
+#: src/common/PlayerCarManager.cpp
+msgid "Beware all speeding hill climbers, the police is now patrolling the hills."
+msgstr "高速での山登りには注意してください。警察が山をパトロール中です。"
+
+#. Tourist bus where people ride in the bus (vehicle description)
+#: src/common/PlayerCarManager.cpp
+msgid "Bill decided to take a shower and give people a ride while climbing hills! Not suitable for cave levels!"
+msgstr "ビルはシャワーを浴びて山を登る間、人々を乗車させてあげることにしました！洞穴レベルには適していません！"
+
+#. Button text for cancelling an operation
+#: src/common/GameLayer.cpp src/common/GameLayer.cpp
+#: src/common/MainMenuSelectCar.cpp src/common/MainMenuSelectCar.cpp
+#: src/common/MainMenuSelectStage.cpp
+#: src/common/MainMenuSelectStage.cpp src/common/MenuUpgradeButton.cpp
+#: src/common/MenuUpgradeButton.cpp
+msgid "CANCEL"
+msgstr "キャンセル"
+
+#. Cave level title
+#: src/common/Stage.cpp
+msgid "CAVE"
+msgstr "洞穴"
+
+#: src/common/MainMenuCar.cpp src/common/MainMenuSelectCar.cpp
+#: src/common/MainMenuSelectStage.cpp
+msgid "COINS "
+msgstr "コイン"
+
+#. Construction level title
+#: src/common/Stage.cpp
+msgid "CONSTRUCTION"
+msgstr "建設現場"
+
+#. Text for a button which opens the controls info screen
+#: src/common/MenuMore.cpp
+msgid "CONTROLS"
+msgstr "コントロール"
+
+#: src/common/MainMenuSelectStage.cpp
+#, c-format
+msgid "COST: %s COINS "
+msgstr "費用: %s コイン"
+
+#. Country side level title
+#: src/common/Stage.cpp
+msgid "COUNTRYSIDE"
+msgstr "田舎"
+
+#. Construction level description
+#: src/common/Stage.cpp
+msgid "Challenging stage even for the most skilled drivers."
+msgstr "もっとも優秀なドライバーにも困難なステージ"
+
+#. Message used when sharing a link to the game. Hill Climb Racing should not be translated
+#. Text used when sharing a link to the game. Hill Climb Racing should not be translated.
+#: src/winrt/PlatformTools.cpp src/wp8/PlatformTools.cpp
+msgid "Check out Hill Climb Racing!\n"
+msgstr "Hill Climb Racingに注目!\n"
+
+#. Text used when sharing a link to the game. Hill Climb Racing should not be translated.
+#: src/common/AndroidInAppPurchasesJNI.cpp
+#, c-format
+msgid "Check out Hill Climb Racing!\n%s"
+msgstr "Hill Climb Racingに注目!\n%s"
+
+#. Hover craft description
+#: src/common/PlayerCarManager.cpp
+msgid "Climb the steepest hills with this powerful vehicle. Especially fast on stages with low friction."
+msgstr "パワフルな車で最も険しい山を登ってください。低摩擦のステージでは特に速く登ってください。"
+
+#. Desert level description
+#: src/common/Stage.cpp
+msgid "Climbing hills in the desert is a must have experience for any hillbilly. In order to travel to desert you need a trailer and a towing car that can carry your vehicle."
+msgstr "ヒルビリーにとって砂漠の登山は一度は体験すべきことです。砂漠を旅するには、トレーラーと車をけん引するけん引車が必要です。"
+
+#. Title of the message shown when connecting to in-app store fails
+#. Title of message box shown to user when connecting to the Windows Store fails
+#: src/common/InAppPurchaseMenu.cpp src/common/InAppPurchaseMenu.cpp
+#: src/common/InAppPurchaseMenu.cpp src/winrt/WindowsStore.cpp
+msgid "Connection failed"
+msgstr "接続がありません"
+
+#. Volcano level description
+#: src/common/Stage.cpp
+msgid "DANGER! Lava pits ahead!"
+msgstr "危険！溶岩の穴があります！"
+
+#. Desert level title
+#: src/common/Stage.cpp
+msgid "DESERT"
+msgstr "砂漠"
+
+#. Turn off instant replay feature
+#: src/common/MenuMore.cpp src/common/MenuMore.cpp
+msgid "DISABLE REPLAYS"
+msgstr "再生を無効にする"
+
+#. Text in result screen indicating that how far the player got
+#: src/common/GameLayer.cpp
+#, c-format
+msgid "DISTANCE: %dm "
+msgstr "距離: %dm"
+
+#. Upgrade title for downforce (rally car, f1 car etc)., pushes the car downwards the faster you go
+#. Upgrade title
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+msgid "DOWNFORCE"
+msgstr "ダウンフォース"
+
+#. Dragster vehicle name (Drag racing car, top fuel class)
+#: src/common/PlayerCarManager.cpp
+msgid "DRAGSTER"
+msgstr "ドラッグスター"
+
+#. Text displayed when the game ends because the driver's head has hit something
+#: src/common/GameLayer.cpp
+msgid "DRIVER DOWN "
+msgstr "ドライバーノックダウン"
+
+#. Text displayed when the game ends because the driver's head has hit something and the vehicle has run out of fuel
+#: src/common/GameLayer.cpp
+msgid "DRIVER DOWN &\n   OUT OF FUEL "
+msgstr "ドライバーノックダウン &\n燃焼切れ"
+
+#. Dune buggy vehicle name
+#: src/common/PlayerCarManager.cpp
+msgid "DUNE BUGGY"
+msgstr "サンドバギー"
+
+#. Ask the user if the user really wants to exit
+#: src/common/MainMenuLayer.cpp src/common/MainMenuSelectCar.cpp
+msgid "Do you really want to exit?"
+msgstr "本当に終了しますか？"
+
+#. Upgrade description for downforce (rally car, f1 car etc)., pushes the car downwards the faster you go
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+msgid "Down force pushes your car downwards when the speed increases improving traction."
+msgstr "ダウンフォースは速度が増加すると車を下に押し、トラクションを改善します。"
+
+#. Highway level description
+#: src/common/Stage.cpp
+msgid "Driving a vehicle built for offroad is quite an experience on tarmac surface. In this level you may get far and fast, but gasoline is a limited resource."
+msgstr "オフロード用の車をタールマック舗装路面を運転するのは本当によい経験になります。このレベルでは速く遠くまで行けるかもしれませんが、ガソリンに制限があります。"
+
+#. Night level description
+#: src/common/Stage.cpp
+msgid "Driving in pitch black is a real challenge."
+msgstr "闇の中での運転は大変困難です。"
+
+#. Onewheeler vehicle descripton
+#: src/common/PlayerCarManager.cpp
+msgid "Driving the hills with this offroad personal transporter is a real challenge!"
+msgstr "オフロード電動立ち乗り二輪車で山を登るのは大変なチャレンジです！"
+
+#. Shown to user when they have bought the same coin pack too many times
+#: src/winrt/WindowsStore.cpp
+#, c-format
+msgid "Due to the limitations of the operating system you must wait %d hours before purchasing this item again."
+msgstr "オペレーティングシステムの制限のため、このアイテムを再購入するは、%d時間お待ちください。"
+
+#. Turn on instant replay feature
+#: src/common/MenuMore.cpp src/common/MenuMore.cpp
+msgid "ENABLE REPLAYS"
+msgstr "再生を有効にする"
+
+#. Upgrade title
+#. Title for vehicle engine upgrade
+#. Upgrade title
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp
+msgid "ENGINE"
+msgstr "エンジン"
+
+#. Exit button text (user exits the game session)
+#: src/common/GameLayer.cpp src/common/GameLayer.cpp
+msgid "EXIT"
+msgstr "退出する"
+
+#. Title for asking if the user really wants to exit
+#. Ask for an exit
+#: src/common/GameLayer.cpp src/common/MainMenuLayer.cpp
+#: src/common/MainMenuSelectCar.cpp
+msgid "EXIT?"
+msgstr "退出しますか？"
+
+#. Windows tile notification telling the user they can unlock a new vehicle if the earn more coins
+#. Windows tile notification telling the user they can unlock a new stage if the earn more coins
+#: src/winrt/TileNotificationManager.cpp
+#: src/winrt/TileNotificationManager.cpp
+#, c-format
+msgid "Earn only %d more coins to unlock %s!"
+msgstr "あと%d 枚のコインを獲得すれば%sをアンロックできます！"
+
+#. Mountain level description
+#: src/common/Stage.cpp
+msgid "Edgy mountain that is very hard to overcome. Highly upgraded vehicle recommended!"
+msgstr "険しい山を克服するのはとても困難です。かなりアップグレードされた車をお奨めします！"
+
+#. Beach level description
+#: src/common/Stage.cpp
+msgid "Enjoy the view and feel the ocean breeze at the hilltop in this relaxing map."
+msgstr "このくつろげる地図の山の頂上で、景色を楽しみ、海からのそよ風を感じてください。"
+
+#. Description for asking if the user really wants to exit
+#: src/common/GameLayer.cpp
+msgid "Exit will discard current progress, but you get to keep all the coins you have collected so far.\n\nAre you sure you want to exit to menu?"
+msgstr "終了すると現在までの進度が失われますが、今まで集めたコインはキープできます。\n\n本当にメニューに退出しますか？"
+
+#. Arctic level description
+#: src/common/Stage.cpp
+msgid "Experience the slippery snow conditions! In order to get to the northern parts of Finland you need a cargo plane that carries the car."
+msgstr "滑りやすい雪を体験してください！フィンランドの北部にたどりつくためには、車を運搬する貨物輸送機が必要です。"
+
+#. Rainbow level description
+#: src/common/Stage.cpp
+msgid "Extreme stage with many tricky jumps."
+msgstr "困難なジャンプが多数ある極限ステージ"
+
+#. Roller coaster level description
+#: src/common/Stage.cpp
+msgid "Extremely fast ride only for the bravest drivers."
+msgstr "最も勇敢なドライバー向けのみの超高速乗車"
+
+#. Show other Fingersoft releases
+#: src/common/MenuMore.cpp
+msgid "FINGERSOFT GAMES & APPS"
+msgstr "FINGERSOFT ゲームとアプリ"
+
+#. Opens Fingersoft Facebook page
+#: src/common/MenuMore.cpp
+msgid "FINGERSOFT ON FACEBOOK"
+msgstr "FINGERSOFTのFACEBOOK"
+
+#. Opens Fingersoft Google+ page
+#: src/common/MenuMore.cpp
+msgid "FINGERSOFT ON GOOGLE+"
+msgstr "FINGERSOFT の GOOGLE+"
+
+#. Opens Fingersoft Twitter page
+#: src/common/MenuMore.cpp
+msgid "FINGERSOFT ON TWITTER"
+msgstr "FINGERSOFT の TWITTER"
+
+#. Forest level title
+#: src/common/Stage.cpp
+msgid "FOREST"
+msgstr "森"
+
+#. Friction reduction upgrade title
+#: src/common/PlayerCarManager.cpp
+msgid "FRICTION"
+msgstr "摩擦"
+
+#. Upgrade title
+#. Title for fuel upgrade
+#. Upgrade title
+#. Fuel tank upgrade title
+#. Upgrade title
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp
+msgid "FUEL"
+msgstr "燃料"
+
+#. Text for the button where the car accelerates
+#: src/common/MenuControls.cpp
+msgid "GAS"
+msgstr "ガソリン"
+
+#. Button text for button that takes the user into a screen where in-app purchases are available
+#. Text for button where user can purchase more coins
+#: src/common/MainMenuCar.cpp src/common/MainMenuSelectCar.cpp
+#: src/common/MainMenuSelectCar.cpp src/common/MainMenuSelectStage.cpp
+#: src/common/MainMenuSelectStage.cpp src/common/MenuUpgradeButton.cpp
+msgid "GET COINS"
+msgstr "コイン"
+
+#. Menu title for in-app purchases where user can get more coins
+#: src/common/InAppPurchaseMenu.cpp
+msgid "GET MORE COINS"
+msgstr "もっとコインを入手する"
+
+#. Windows tile notification telling the user how much further they need to get to reach the next level in a stage
+#: src/winrt/TileNotificationManager.cpp
+#, c-format
+msgid "Get %dm further to reach level %d in %s!"
+msgstr "%dmをもっと遠くに進めると、レベル%d、%sに達することができます！"
+
+#. Mars level description
+#: src/common/Stage.cpp
+msgid "Go even further in our galaxy and explore the Mars. Go through tunnels and experience the different gravity."
+msgstr "銀河系をさらに進み、火星を探索しましょう。トンネルを抜けて違う重力を体験しましょう。"
+
+#. Moon level description
+#: src/common/Stage.cpp
+msgid "Go to the place no hillbilly has been ever before. Different gravity allows a whole new set of tricks to experience!"
+msgstr "ヒルビリーが今まで行ったことがない所まで行きましょう。重力が違うため、たくさんのトリックを体験できます！"
+
+#. Snowmobile vehicle description
+#: src/common/PlayerCarManager.cpp
+msgid "Great traction in the ice and snow. Fully upgraded it becomes a fun vehicle for other levels too!"
+msgstr "氷と雪の中でのすばらしいトラクション。完全にアップグレードすると他のレベルでも楽しい車になります！"
+
+#. Text for the button which toggles the gas and brake pedals visibility in the game (show/hide pedals)
+#: src/common/MenuControls.cpp
+msgid "HIDE PEDALS"
+msgstr "ペダルを非表示"
+
+#: src/common/MenuMore.cpp
+msgid "HIGH SCORES"
+msgstr "ハイスコア"
+
+#. Highway level title
+#: src/common/Stage.cpp
+msgid "HIGHWAY"
+msgstr "ハイウェイ"
+
+#. Hippie van vehicle name (VW Kleinbus)
+#: src/common/PlayerCarManager.cpp
+msgid "HIPPIE VAN"
+msgstr "ヒッピーバン"
+
+#. Hover craft vehicle name
+#: src/common/PlayerCarManager.cpp
+msgid "HOVERCRAFT"
+msgstr "ホバークラフト"
+
+#. Formula-1 car like race car description
+#: src/common/PlayerCarManager.cpp
+msgid "High power and aerodynamic ultimate hill climbing vehicle. Upgrade downforce to make this car follow the road like a magnet."
+msgstr "高馬力とエアロダイナミクス付きの究極の登山用の車です。ダウンフォースをアップグレードすると、この車は磁石のように道路を走ります。"
+
+#. Subject of message when sharing game results (%d = distance, %s = stage). Hill Climb Racing should not be translated.
+#: src/common/GameLayer.cpp
+#, c-format
+msgid "Hill Climb Racing: I reached %dm in %s"
+msgstr "Hill Climb Racing: %dm 、%sに達しました"
+
+#. Message when sharing game results (%d = distance, first %s = stage, second %s is link to the game)
+#: src/common/GameLayer.cpp
+#, c-format
+msgid "I reached %dm in %s. Check out how far you go: %s"
+msgstr "%dm、%sに達しました。 どれくらいの距離があるかチェック: %s"
+
+#. Current language name in local language (eg. English, Deutsch, Suomi)
+#: src/common/LanguageMenu.cpp
+msgid "ID_LANGUAGE_NAME"
+msgstr "日本語"
+
+#. Text in game results indicating which stage was played
+#: src/common/GameLayer.cpp
+#, c-format
+msgid "IN %s"
+msgstr "ステージ%s"
+
+#. Text indicating the player received a bonus for staying in the air for a really long time
+#: src/common/GameLayer.cpp
+msgid "INSANE AIR TIME\n"
+msgstr "凄いエアタイム\n"
+
+#. Text indicating the player received a bonus for staying in the air for a really long time
+#: src/common/GameLayer.cpp
+#, c-format
+msgid "INSANE AIR TIME\n    +%d "
+msgstr "凄いエアタイム\n    +%d"
+
+#. Aerodynamics upgrade description
+#: src/common/PlayerCarManager.cpp
+msgid "Improved aerodynamics reduces air resistance and results in higher top speed."
+msgstr "エアロダイナミクスの改善は空気抵抗を減らすため、速度がさらに増します。"
+
+#. Friction reduction upgrade description (allows the vehicle to move faster)
+#: src/common/PlayerCarManager.cpp
+msgid "Improved cushion material reduces friction and results in higher ground speed."
+msgstr "クッション材質の改善は摩擦を減らすため、対地速度を上げます。"
+
+#. Battery upgrade description
+#: src/common/PlayerCarManager.cpp
+msgid "Improved energy efficiency allows the vehicle to driver further with one charge."
+msgstr "エネルギー効率改善により、1回充電しただけでもっと遠くまで走れます。"
+
+#. Engine upgrade description
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp
+msgid "Improved engine parts result in power increase. Higher horsepower helps you climb hills and make longer jumps and tricks for more bonuses."
+msgstr "エンジン部品の改善はパワーを増します。高い馬力により登山が楽になり、ジャンプを長くし、もっとボーナスを得るためのトリックを得られます。"
+
+#. Tire upgrade description
+#: src/common/PlayerCarManager.cpp
+msgid "Improved roll cage material can take more damage before breaking."
+msgstr "改善されたロールケージ部材は破壊前にダメージを吸収します。"
+
+#. Suspension upgrade description
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+msgid "Improved shock absorption improves stability at high speeds and makes the car more stable on bumps."
+msgstr "ショックアブゾーバー改善で高速でも安定感を保ち、でこぼこ道でも安定した走りが可能になります。"
+
+#. Tire upgrade description
+#. Tires upgrade description
+#. Tire upgrade description
+#. Tires upgrade description
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp
+msgid "Improved tires result in better traction and better power delivery to the ground."
+msgstr "タイヤの改善はトラクションを向上し、路面への駆動力性能を改善します。"
+
+#. Tire upgrade description
+#. Description for tracks / tires upgrade (improves traction in the tank, snow mobile etc)
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp
+msgid "Improved tracks result in better traction and better power delivery to the ground."
+msgstr "トラックの改善はトラクションを向上し、路面への駆動力性能を改善します。"
+
+#. 4WD upgrade description
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp
+msgid "Improving all wheel drive system will result in better traction and better handling of the vehicle."
+msgstr "改善された全輪駆動システムはトラクションと車のハンドリングを向上します。"
+
+#. Fuel upgrade description
+#. Fuel tank upgrade description
+#. Fuel upgrade description
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp
+msgid "Improving the fuel tank size makes it possible to drive further."
+msgstr "燃料タンクサイズの改善は運転距離を延長します。"
+
+#. Ambulance description
+#: src/common/PlayerCarManager.cpp
+msgid "In case of emergency, call 555-NECK-FLIP."
+msgstr "緊急の場合、555‐NECK-FLIPに電話してください。"
+
+#. Tank vehicle description
+#: src/common/PlayerCarManager.cpp
+msgid "It's a tank!"
+msgstr "それは戦車です！"
+
+#. Mudpool level description
+#: src/common/Stage.cpp
+msgid "It's time to get dirty!"
+msgstr "どろだらけになる時がきました！"
+
+#. Alien planet level description (weird slimy planet with very slippery surface)
+#: src/common/Stage.cpp
+msgid "It's time to go beyond the galaxy to an alien planet. This slimy sloped planet gives you a challenge of its own."
+msgstr "銀河系を脱出し、エイリアンの星を訪れる時がきました。このぬるぬるした傾斜がついた惑星には独特のチャレンジがあります。"
+
+#. Players default car, the jeep
+#: src/common/PlayerCarManager.cpp
+msgid "JEEP"
+msgstr "ジープ"
+
+#. Junkyard level title
+#: src/common/Stage.cpp
+msgid "JUNKYARD"
+msgstr "ジャンクヤード"
+
+#. Train vehicle name (kid's train)
+#: src/common/PlayerCarManager.cpp
+msgid "KIDDIE EXPRESS"
+msgstr "子どもエクスプレス"
+
+#. Tractor stability upgrade description
+#: src/common/PlayerCarManager.cpp
+msgid "Keeps the tractor from rolling over on steep hills."
+msgstr "トラクターが険しい山から転がり落ちないようにしてください。"
+
+#. Stability upgrade description
+#: src/common/PlayerCarManager.cpp
+msgid "Keeps the vehicle from rolling over on steep hills."
+msgstr "険しい山道で車が転げ落ちないようにします。"
+
+#. Upgrade level progress
+#: src/common/MenuUpgradeButton.cpp
+#, c-format
+msgid "LEVEL %d / %d"
+msgstr "レベル %d / %d"
+
+#. Text displayed when the player completes a new level of a stage
+#: src/common/GameLayer.cpp
+#, c-format
+msgid "LEVEL %d COMPLETE "
+msgstr "レベル %d 完了"
+
+#. Label of button that gives free coins for liking Fingersoft on Facebook
+#: src/common/InAppPurchaseMenu.cpp
+msgid "LIKE US"
+msgstr "いいねをクリック"
+
+#. Locked text shown for items that are still locked (not available until purchased)
+#: src/common/MainMenuSelectCar.cpp src/common/MainMenuSelectStage.cpp
+msgid "LOCKED"
+msgstr "ロック済み"
+
+#. The text on the yes button of a dialog asking the user to rate the game
+#: src/common/AndroidInAppPurchasesJNI.cpp
+msgid "Later"
+msgstr "後で"
+
+#. Text indicating how far the player needs to drive to reach the next level
+#: src/common/GameLayer.cpp
+#, c-format
+msgid "Level %d: Reach %dm"
+msgstr "レベル %d: %dm 達成"
+
+#. Text showing how far the player must drive to reach the next level
+#: src/common/GameLayer.cpp
+#, c-format
+msgid "Level %d: Reach %dm "
+msgstr "レベル %d: %dm 達成"
+
+#. Shows the next goal for a level in level selection screen. For example: "Level 2: Reach 400m". Please preserve the %d.
+#: src/common/MainMenuSelectStage.cpp
+#, c-format
+msgid "Level %d: reach %dm"
+msgstr "レベル %d: %dm 達成"
+
+#. Text indicating that the player received points for reaching a new level
+#: src/common/GameLayer.cpp
+#, c-format
+msgid "Level bonus +%d "
+msgstr "レベルボーナス +%d"
+
+#. Text indicating that the player received points for reaching a new level
+#: src/common/GameLayer.cpp
+msgid "Level bonus +0     "
+msgstr "レベルボーナス +0"
+
+#. Text displayed while the waiting for in-app prices from the server
+#: src/common/InAppPurchaseMenu.cpp
+msgid "Loading prices from server..."
+msgstr "サーバーから価格を読み込み中です..."
+
+#. Stability upgrade description
+#: src/common/PlayerCarManager.cpp
+msgid "Lower center of mass keeps the vehicle from rolling over on steep hills."
+msgstr "重心が低いので険しい山でも転倒を防ぎます。"
+
+#. Suspension upgrade description
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp
+msgid "Lower weight point and improved shock absorption improves stability at high speeds and makes the car more stable on bumps."
+msgstr "低い荷重点とショック吸収の改善は高速での安定性を向上し、車がでこぼこ表面でも安定します。"
+
+#. Suspension upgrade description
+#: src/common/PlayerCarManager.cpp
+msgid "Lower weight point and improved shock absorption improves stability at high speeds and makes the tank more stable on bumps."
+msgstr "低い荷重点とショック吸収の改善は高速での安定性を向上し、戦車はでこぼこ表面でも安定します。"
+
+#. Suspension upgrade description
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp
+msgid "Lower weight point and improved shock absorption improves stability at high speeds and makes the vehicle more stable on bumps."
+msgstr "低い荷重点とショック吸収の改善は高速での安定性を向上し、車がでこぼこ表面でも安定します。"
+
+#. Mars level title (yes, the mars planet)
+#: src/common/Stage.cpp
+msgid "MARS"
+msgstr "火星"
+
+#. Max level (user has already reached the maximum level available)
+#: src/common/MenuUpgradeButton.cpp
+msgid "MAX LEVEL"
+msgstr "最高レベル"
+
+#. Title for a window if user has already upgraded something to its maximum level
+#: src/common/MenuUpgradeButton.cpp
+msgid "MAXIMUM LEVEL"
+msgstr "最高レベル"
+
+#. Text for a controls info screen, describing what the game controller d-pad does in the game, ie. changes the selected menu item
+#: src/common/MenuControls.cpp
+msgid "MENU CONTROL"
+msgstr "メニューコントロール"
+
+#. Show Fingersoft merchandise page
+#: src/common/MenuMore.cpp
+msgid "MERCHANDISE"
+msgstr "商品"
+
+#. Mid-air control upgrade (allows the player to have more responsive control when the vehicle is flying/jumping)
+#: src/common/PlayerCarManager.cpp
+msgid "MID-AIR CONTROL"
+msgstr "空中コントロール"
+
+#. Monster truck name
+#: src/common/PlayerCarManager.cpp
+msgid "MONSTER TRUCK"
+msgstr "モンスタートラック"
+
+#. Moon level title
+#: src/common/Stage.cpp
+msgid "MOON"
+msgstr "月"
+
+#. Button which takes the user into more fingersoft apps and features
+#. More menu title
+#: src/common/MainMenuSelectCar.cpp src/common/MenuMore.cpp
+msgid "MORE"
+msgstr "その他"
+
+#. Motocross bike vehicle name
+#: src/common/PlayerCarManager.cpp
+msgid "MOTOCROSS BIKE"
+msgstr "モトクロスバイク"
+
+#. Mountain level title
+#: src/common/Stage.cpp
+msgid "MOUNTAIN"
+msgstr "山"
+
+#. Mudpool level title
+#: src/common/Stage.cpp
+msgid "MUDPOOL"
+msgstr "泥沼"
+
+#. Mid-air control upgrade description
+#: src/common/PlayerCarManager.cpp
+msgid "Makes your bike turn faster in mid-air making tricks easier and allow more control on landing."
+msgstr "バイクの空中回転を高速にする他、トリックが簡単になり、着地コントロールを向上します。"
+
+#. Text displayed when the player does a flip that breaks the driver's neck
+#: src/common/GameLayer.cpp
+msgid "NECK FLIP\n    +2500 "
+msgstr "首宙返り\n    +2500"
+
+#. Text displayed when the player makes a new record
+#: src/common/GameLayer.cpp
+msgid "NEW RECORD! "
+msgstr "新記録！"
+
+#. Button text for taking the user to the next menu screen
+#: src/common/MainMenuSelectCar.cpp src/common/MainMenuSelectStage.cpp
+msgid "NEXT"
+msgstr "次"
+
+#. Night level title
+#: src/common/Stage.cpp
+msgid "NIGHT"
+msgstr "夜"
+
+#. Button text for a negative answer
+#: src/common/MainMenuLayer.cpp src/common/MainMenuSelectCar.cpp
+msgid "NO"
+msgstr "いいえ"
+
+#. The text on the no button of a dialog asking the user to rate the game
+#: src/common/AndroidInAppPurchasesJNI.cpp
+msgid "No thanks"
+msgstr "結構です"
+
+#. Title of the message box shown when no advertisement videos are available
+#: src/common/InAppPurchaseMenu.cpp
+msgid "No videos to view currently"
+msgstr "現在閲覧するビデオはありません"
+
+#. Exit button text
+#. Restart game session button
+#. OK button
+#: src/common/GameLayer.cpp src/common/GameLayer.cpp
+#: src/common/MenuUpgradeButton.cpp src/common/MenuUpgradeButton.cpp
+msgid "OK"
+msgstr "OK"
+
+#. Onewheeler vehicle name
+#: src/common/PlayerCarManager.cpp
+msgid "ONEWHEELER"
+msgstr "一輪車"
+
+#. Text displayed when the game ends because the vehicle has run out of fuel
+#: src/common/GameLayer.cpp
+msgid "OUT OF FUEL "
+msgstr "燃料切れ"
+
+#. Text indicating that the game is paused
+#: src/common/GameLayer.cpp
+msgid "PAUSED"
+msgstr "一時停止中"
+
+#. Police car vehicle name
+#: src/common/PlayerCarManager.cpp
+msgid "POLICE CAR"
+msgstr "パトカー"
+
+#. Rally car vehicle description
+#: src/common/PlayerCarManager.cpp
+msgid "Powerful engine and downforce upgraded provide the most ultimate combination for hill climbing."
+msgstr "パワフルなエンジンとダウンフォースアップグレードは究極の山登りの組み合わせを提供します。"
+
+#. Train description
+#: src/common/PlayerCarManager.cpp
+msgid "Powerful train with two carriages. Enjoy the ride!"
+msgstr "二車両編成の強力な列車。乗車をお楽しみください！"
+
+#. Big monster truck "big finger" description
+#: src/common/PlayerCarManager.cpp
+msgid "Prepare for true monster mayhem with this huge truck."
+msgstr "この巨大なトラックで最大級の破壊に備えてください。"
+
+#. Title of message box displayed when the user buys coins
+#: src/common/AppDelegate.cpp
+msgid "Purchase complete"
+msgstr "購入完了"
+
+#. Title of message box when in-app purchase fails
+#. Title of the message box shown to the user when they have bought the same coin back too many times
+#. Title of message box when in-app purchase fails
+#: src/winrt/WindowsStore.cpp src/winrt/WindowsStore.cpp
+#: src/winrt/WindowsStore.cpp
+msgid "Purchase failed"
+msgstr "購入失敗"
+
+#. Quad bike vehicle name
+#: src/common/PlayerCarManager.cpp
+msgid "QUAD BIKE"
+msgstr "クワッドバイク"
+
+#. Dune buggy description
+#: src/common/PlayerCarManager.cpp
+msgid "Quick, good traction and a handy hill climbing vehicle!"
+msgstr "迅速、優れたトラックションと便利な登山用の車！"
+
+#. Formula-1 car like race car name
+#: src/common/PlayerCarManager.cpp
+msgid "RACE CAR"
+msgstr "レースカー"
+
+#. Rainbow level title
+#: src/common/Stage.cpp
+msgid "RAINBOW"
+msgstr "レインボー"
+
+#. Rally car vehicle name
+#: src/common/PlayerCarManager.cpp
+msgid "RALLY CAR"
+msgstr "ラリーカー"
+
+#. Text in result screen indicating that the player made a new record and how far they got
+#: src/common/GameLayer.cpp
+#, c-format
+msgid "RECORD: %dm "
+msgstr "記録: %dm"
+
+#. Restart button text (user restarts the game session)
+#: src/common/GameLayer.cpp src/common/GameLayer.cpp
+msgid "RESTART"
+msgstr "再スタート"
+
+#. Title for asking if the user really wants to restart
+#: src/common/GameLayer.cpp
+msgid "RESTART?"
+msgstr "再スタートしますか？"
+
+#. Resume button text (user resumes to game from pause menu)
+#: src/common/GameLayer.cpp src/common/GameLayer.cpp
+msgid "RESUME"
+msgstr "再開"
+
+#. Roll cage upgrade title
+#: src/common/PlayerCarManager.cpp
+msgid "ROLL CAGE"
+msgstr "ロールケージ"
+
+#. Roller coaster level title
+#: src/common/Stage.cpp
+msgid "ROLLER COASTER"
+msgstr "ローラーコースター"
+
+#. Rooftops level title
+#: src/common/Stage.cpp
+msgid "ROOFTOPS"
+msgstr "ルーフトップ"
+
+#. Motocross bike vehicle description
+#: src/common/PlayerCarManager.cpp
+msgid "Race the hills with this impressive turboed motocross bike."
+msgstr "この見事なターボモトクロスバイクで山中をレースします。"
+
+#. The title of a dialog asking the user to rate the game
+#: src/common/AndroidInAppPurchasesJNI.cpp
+msgid "Rate Hill Climb Racing?"
+msgstr "Hill Climb Racingを評価しますか?"
+
+#. Diesel track vehicle description (decent turbo diesel truck that puts out black smoke when driving hard)
+#: src/common/PlayerCarManager.cpp
+msgid "Ready for the super turbo whistle and black smoke? With powerful engine and large wheelbase this really is an unique experience!"
+msgstr "スーパーターボの警笛と黒煙の用意はできましたか？パワフルなエンジンと大型ホイールベースで本当に独特な体験を味わえます！"
+
+#. Description for asking if the user really wants to restart
+#: src/common/GameLayer.cpp
+msgid "Restart will discard current progress, but you get to keep all the coins you have collected so far.\n\nAre you sure you want to restart?"
+msgstr "再スタートすると現在の進度を失いますが、今まで貯めたコインはキープできます。\n\n本当に再スタートしますか？"
+
+#. Stability upgrade on hovercraft, improves overal vehicle stability when climbing high hills
+#: src/common/PlayerCarManager.cpp
+msgid "Rotating engine improves stability when climbing steep hills."
+msgstr "回転エンジンは険しい山登りの際、安定性を向上します。"
+
+#. Text for a controls info screen, describing which button in the game controller is the select button. Select button activates the currently selected menu item.
+#: src/common/MenuControls.cpp
+msgid "SELECT"
+msgstr "選択"
+
+#. Menu title for language menu where the user can select the used language
+#: src/common/LanguageMenu.cpp
+msgid "SELECT LANGUAGE"
+msgstr "言語を選択"
+
+#. Title of the screen where user selects the level/stage to play in
+#: src/common/HighscoreMenu.cpp src/common/HighscoreMenu.cpp
+#: src/common/MainMenuSelectStage.cpp
+msgid "SELECT STAGE"
+msgstr "ステージを選択"
+
+#. Menu title for car selection screen
+#: src/common/MainMenuSelectCar.cpp
+msgid "SELECT VEHICLE"
+msgstr "車を選択"
+
+#. Text on button for sharing game results
+#: src/common/GameLayer.cpp
+msgid "SHARE"
+msgstr "共有"
+
+#. Share a link to the game in social media
+#: src/common/MenuMore.cpp
+msgid "SHARE HILL CLIMB RACING"
+msgstr "HILL CLIMB RACINGをシェア"
+
+#. Snowmobile vehicle name
+#: src/common/PlayerCarManager.cpp
+msgid "SNOW MOBILE"
+msgstr "スノーモービル"
+
+#. Upgrade title
+#. Stability upgrade title
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+msgid "STABILITY"
+msgstr "安定性"
+
+#: src/common/MainMenuCar.cpp
+msgid "STAGE"
+msgstr "ステージ"
+
+#: src/common/MainMenuCar.cpp
+msgid "START "
+msgstr "スタート"
+
+#. Diesel track vehicle name (decent turbo diesel truck that puts out black smoke when driving hard)
+#: src/common/PlayerCarManager.cpp
+msgid "SUPER DIESEL 4X4"
+msgstr "スーパーディーゼル 4x4"
+
+#. Upgrade title
+#. Title for vehicle suspension upgrade
+#. Upgrade title
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp
+msgid "SUSPENSION"
+msgstr "サスペンション"
+
+#. Arctic cave description
+#: src/common/Stage.cpp
+msgid "Slippery arctic cave is something different to try."
+msgstr "滑りやすい北極圏の洞穴をトライすることは困難です。"
+
+#: src/common/MainMenuCar.cpp
+msgid "Stage unlock available! "
+msgstr "ステージをアンロックできます！"
+
+#. Tank vehicle name
+#: src/common/PlayerCarManager.cpp
+msgid "TANK"
+msgstr "戦車"
+
+#. Upgrade title
+#. Tires upgrade title
+#. Upgrade title
+#. Tires upgrade title
+#. Upgrade title
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+msgid "TIRES"
+msgstr "タイヤ"
+
+#. Tourist bus where people ride in the bus (vehicle name)
+#: src/common/PlayerCarManager.cpp
+msgid "TOURIST BUS"
+msgstr "ツアーバス"
+
+#. Title for tracks / tires upgrade (improves traction in the tank, snow mobile etc)
+#. Upgrade title
+#: src/common/PlayerCarManager.cpp src/common/PlayerCarManager.cpp
+msgid "TRACKS"
+msgstr "トラック"
+
+#. Tractor vehicle name
+#: src/common/PlayerCarManager.cpp
+msgid "TRACTOR"
+msgstr "トラクター"
+
+#. 6-wheel truck vehicle name
+#: src/common/PlayerCarManager.cpp
+msgid "TRUCK"
+msgstr "トラック"
+
+#. Cave level description
+#: src/common/Stage.cpp
+msgid "Take an adventure into the treasure cave. It's hard to approach the bumps without hitting the ceiling. Gasoline is a limited resource in a cave."
+msgstr "宝物がある洞窟を冒険しましょう。天井をぶつけることなくでこぼこ表面を走るのは困難です。洞窟内ではガソリンに制限があります。"
+
+#. Hippie van vehicle description
+#: src/common/PlayerCarManager.cpp
+msgid "The hippie van has plenty of fuel but suffers from loose tires! These tree huggers have also figured out how to drive around trees."
+msgstr "ヒッピーバンは燃料が豊富ですが、タイヤが緩いという問題があります！この環境保護運動家は木々の合間を運転することができます。"
+
+#. Junkyard level description
+#: src/common/Stage.cpp
+msgid "The local junkyard is full of Bill's old vehicles"
+msgstr "地方のスクラップ場はビルの中古車で一杯です"
+
+#. Tractor vehicle description
+#: src/common/PlayerCarManager.cpp
+msgid "The tractor is slow and heavy but has great traction and plenty of torque (and a tendency to roll over in steep terrain). Not recommended for caves."
+msgstr "トラクターは速度が遅く重量がありますが、トラクションに優れトルクが豊富です（険しい地形では転倒する傾向があります）。洞窟にはお奨めできません。"
+
+#. Forest level description (the user has to drive through the trees in the forest)
+#: src/common/Stage.cpp
+msgid "The trees arent just for decoration, you'll have to drive through them. Highly upgraded vehicle recommended!"
+msgstr "木々はただの装飾ではありません。これらの間を走らなくてはなりません。かなりアップグレードした車をお奨めします！"
+
+#. Dragster description
+#: src/common/PlayerCarManager.cpp
+msgid "Top fuel dragster! Insanely fast, but be careful, it's not easy to control!"
+msgstr "ドラッグスターの燃料を満タンにする！途端にスピードアップしますが、コントロールが難しくなります！"
+
+#. Button text for unlocking an item
+#: src/common/MainMenuSelectCar.cpp src/common/MainMenuSelectStage.cpp
+msgid "UNLOCK"
+msgstr "アンロック"
+
+#. Title for unlocking something, please preserve %s, it will be replaced by the item name user is going to unlock
+#: src/common/MainMenuSelectCar.cpp src/common/MainMenuSelectCar.cpp
+#: src/common/MainMenuSelectStage.cpp
+#: src/common/MainMenuSelectStage.cpp
+#, c-format
+msgid "UNLOCK %s? "
+msgstr "%sをアンロック?"
+
+#: src/common/MenuUpgradeButton.cpp
+msgid "UPGRADE"
+msgstr "アップグレード"
+
+#: src/common/MainMenuCar.cpp
+#, c-format
+msgid "UPGRADE %s?"
+msgstr "%sをアップグレード?"
+
+#. Message shown when connecting to in-app store fails (iOS)
+#: src/common/InAppPurchaseMenu.cpp
+msgid "Unable to connect to the AppStore. Please try again later."
+msgstr "AppStore に接続できません。後でお試しください。"
+
+#. Message shown when connecting to in-app store fails (Tizen)
+#: src/common/InAppPurchaseMenu.cpp
+msgid "Unable to connect to the Tizen Store. Please try again later."
+msgstr "Tizen Store に接続できません。後でお試しください。"
+
+#. Message shown when connecting to in-app store fails (Windows)
+#. Shown to user when connecting to the Windows Store fails
+#: src/common/InAppPurchaseMenu.cpp src/winrt/WindowsStore.cpp
+msgid "Unable to connect to the Windows Store. Please try again later."
+msgstr "Windows Store に接続できません。後でお試しください。"
+
+#. Shown to user when making an in-app purchase failed.
+#: src/winrt/WindowsStore.cpp src/winrt/WindowsStore.cpp
+msgid "Unable to purchase item at this time. Please try again later."
+msgstr "現在購入できません。後でお試しください。"
+
+#. Title of message ox displayed when saving an image of game results failed
+#: src/common/GameLayer.cpp
+msgid "Unable to save image"
+msgstr "画像を保存できません"
+
+#. Message displayed when saving an image of game results failed
+#: src/common/GameLayer.cpp
+msgid "Unable to save result image. There might not be enough space available."
+msgstr "結果の画像を保存できません。容量不足の可能性があります。"
+
+#. Message shown when no advertisement videos are available
+#: src/common/InAppPurchaseMenu.cpp
+msgid "Unfortunately there were no videos available right now. Try again later."
+msgstr "残念ながら、現在ビデオは利用できません。後でお試しください。"
+
+#. m_pMenu = CCMenu::create();
+#: src/common/MainMenuSelectStage.cpp
+msgid "VEHICLE"
+msgstr "車"
+
+#. Volcano level title
+#: src/common/Stage.cpp
+msgid "VOLCANO"
+msgstr "火山"
+
+#. Shows the best score user has made in that level in the selected vehicle: For example: "Vehicle best: 1352m ". Please preserve the %d".
+#: src/common/MainMenuSelectStage.cpp
+#, c-format
+msgid "Vehicle best: %dm"
+msgstr "車両ベスト: %dm"
+
+#. Button for watching previously recorded instant replays
+#: src/common/MenuMore.cpp
+msgid "WATCH REPLAYS"
+msgstr "再生を閲覧"
+
+#. Label of button that gives free coins for watching ads
+#: src/common/InAppPurchaseMenu.cpp
+msgid "WATCH VIDEO"
+msgstr "ビデオを閲覧"
+
+#. Rooftops level description
+#: src/common/Stage.cpp
+msgid "Watch out for the gaps between buildings or you may fall off!"
+msgstr "ビルの隙間に気を付けないと落ちます！"
+
+#. 6-wheel truck vehicle description
+#: src/common/PlayerCarManager.cpp
+msgid "Weight, power, turbo whistle and attitude! And upgradeable very large fuel tank!"
+msgstr "重量、パワー、ターボ、警笛、スタイル！アップグレード可能な高容量の燃料タンク！"
+
+#. Monster truck description
+#: src/common/PlayerCarManager.cpp
+msgid "With large wheels and a supercharged engine this car really gives a new experience for Hill Climbing!"
+msgstr "大型の車輪とスーパーチャージエンジンにより、この車は山登りに新しい体験を与えます。"
+
+#. The text of a dialog asking the user to rate the game
+#: src/common/AndroidInAppPurchasesJNI.cpp
+msgid "Would you like rate our game and give us feedback?"
+msgstr "このゲームを評価してフィードバックを提供していただけますか？"
+
+#. Xmas level title
+#: src/common/Stage.cpp
+msgid "XMAS"
+msgstr "クリスマス"
+
+#. Button text for a positive answer
+#: src/common/MainMenuLayer.cpp src/common/MainMenuSelectCar.cpp
+msgid "YES"
+msgstr "はい"
+
+#. The text on the yes button of a dialog asking the user to rate the game
+#: src/common/AndroidInAppPurchasesJNI.cpp
+msgid "Yes"
+msgstr "はい"
+
+#. Description for a window if user has already upgraded something to its maximum level
+#: src/common/MenuUpgradeButton.cpp
+msgid "You have already upgraded this to the maximum level available."
+msgstr "これは既に最高レベルのアップグレードを与えられています。"
+
+#. Message displayed when the user buys coins (%s is the amount) and advertisements are removed
+#: src/common/AppDelegate.cpp
+#, c-format
+msgid "You have been rewarded %s coins and advertisements have been removed. "
+msgstr "%s コインの報酬を受け取りました。広告も非表示になりました。"
+
+#. Message displayed when the user buys coins (%s is the amount)
+#: src/common/AppDelegate.cpp
+#, c-format
+msgid "You have been rewarded %s coins. "
+msgstr "%s コインの報酬を受け取りました。"
+
+#. Windows tile notification telling the user they have enough coins to to unlock a new vehicle
+#. Windows tile notification telling the user they have enough coins to to unlock a new stage
+#: src/winrt/TileNotificationManager.cpp
+#: src/winrt/TileNotificationManager.cpp
+#, c-format
+msgid "You have enough coins to unlock %s. Give it a try!"
+msgstr "%sをアンロックする十分なコインがあります。お試しください！"

@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: com.fingersoft.hillclimb-1.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '9'
+  targetSdkVersion: '19'
+packageInfo:
+  cur_package: com.fingersoft.hillclimb
+  orig_package: com.fingersoft.hillclimb
+compressionType: false

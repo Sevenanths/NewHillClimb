@@ -1,0 +1,779 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-10 09:42+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Shows the cost of an upgrade / unlock in ingame virtual currency. Preserve %d in translation, it's replaced by a number representing the cost
+#: src/common/MainMenuSelectCar.cpp:135
+#, c-format
+msgid " COST: %d COINS "
+msgstr ""
+
+#. This text appears if user doesn't have enough coins to unlock the specific item. First %s is replaced with the item name, then the %d are coin numbers
+#: src/common/MainMenuSelectCar.cpp:296 src/common/MainMenuSelectStage.cpp:289
+#, c-format
+msgid ""
+"%s\n"
+"\n"
+"Unlock cost: %d coins\n"
+"You need %d more coins"
+msgstr ""
+
+#. Text for showing that how much an unlock costs. %s is replaced with the item name user is about to unlock and %d is replaced with the number of coins this unlock will cost
+#: src/common/MainMenuSelectCar.cpp:320 src/common/MainMenuSelectStage.cpp:299
+#, c-format
+msgid ""
+"%s\n"
+"\n"
+"Unlock cost: %d coins "
+msgstr ""
+
+#. Shows the upgrade cost in coins
+#: src/common/MenuUpgradeButton.cpp:141
+#, c-format
+msgid ""
+"%s\n"
+"\n"
+"Upgrade cost: %d coins"
+msgstr ""
+
+#. Shown to the user when more coins are required to upgrade
+#: src/common/MenuUpgradeButton.cpp:121 src/common/MenuUpgradeButton.cpp:130
+#, c-format
+msgid ""
+"%s\n"
+"\n"
+"Upgrade cost: %d coins\n"
+"You need %d more coins"
+msgstr ""
+
+#. Upgrade title
+#: src/common/PlayerCarManager.cpp:46 src/common/PlayerCarManager.cpp:131
+#: src/common/PlayerCarManager.cpp:213
+msgid "4WD"
+msgstr ""
+
+#. Quad bike vehicle description
+#: src/common/PlayerCarManager.cpp:186
+msgid ""
+"4x4 quad bike with almost the same agility as the bike offers you a "
+"different ride."
+msgstr ""
+
+#. Aerodynamics upgrade title
+#: src/common/PlayerCarManager.cpp:637
+msgid "AERODYNAMICS"
+msgstr ""
+
+#. Alien planet level title (weird slimy planet with very slippery surface)
+#: src/common/Stage.cpp:951
+msgid "ALIEN PLANET"
+msgstr ""
+
+#. Arctic level title
+#: src/common/Stage.cpp:916
+msgid "ARCTIC"
+msgstr ""
+
+#. Arctic cave title
+#: src/common/Stage.cpp:958
+msgid "ARCTIC CAVE"
+msgstr ""
+
+#: src/common/LanguageMenu.cpp:66
+msgid "BACK"
+msgstr ""
+
+#. Beach level title
+#: src/common/Stage.cpp:993
+msgid "BEACH"
+msgstr ""
+
+#. Tourist bus where people ride in the bus (vehicle description)
+#: src/common/PlayerCarManager.cpp:229
+msgid ""
+"Bill decided to take a shower and give people a ride while climbing hills! "
+"Not suitable for cave levels!"
+msgstr ""
+
+#. Button text for cancelling an operation
+#: src/common/GameLayer.cpp:871 src/common/GameLayer.cpp:892
+#: src/common/MainMenuSelectCar.cpp:307 src/common/MainMenuSelectCar.cpp:331
+#: src/common/MainMenuSelectStage.cpp:293
+#: src/common/MainMenuSelectStage.cpp:303 src/common/MenuUpgradeButton.cpp:126
+#: src/common/MenuUpgradeButton.cpp:145
+msgid "CANCEL"
+msgstr ""
+
+#. Cave level title
+#: src/common/Stage.cpp:930
+msgid "CAVE"
+msgstr ""
+
+#: src/common/MainMenuCar.cpp:140 src/common/MainMenuSelectCar.cpp:164
+msgid "COINS "
+msgstr ""
+
+#. Cost of something, %d is replaced with the actual price
+#: src/common/MenuUpgradeButton.cpp:77
+#, c-format
+msgid "COST %d"
+msgstr ""
+
+#: src/common/MainMenuSelectStage.cpp:141
+#, c-format
+msgid "COST: %d COINS "
+msgstr ""
+
+#. Country side level title
+#: src/common/Stage.cpp:903
+msgid "COUNTRYSIDE"
+msgstr ""
+
+#. Hover craft description
+#: src/common/PlayerCarManager.cpp:611
+msgid ""
+"Climb the steepest hills with this powerful vehicle. Especially fast on "
+"stages with low friction."
+msgstr ""
+
+#. Desert level description
+#: src/common/Stage.cpp:911
+msgid ""
+"Climbing hills in the desert is a must have experience for any hillbilly. In "
+"order to travel to desert you need a trailer and a towing car that can carry "
+"your vehicle."
+msgstr ""
+
+#. Volcano level description
+#: src/common/Stage.cpp:988
+msgid "DANGER! Lava pits ahead!"
+msgstr ""
+
+#. Desert level title
+#: src/common/Stage.cpp:909
+msgid "DESERT"
+msgstr ""
+
+#. Upgrade title for downforce (rally car, f1 car etc)., pushes the car downwards the faster you go
+#. Upgrade title
+#: src/common/PlayerCarManager.cpp:301 src/common/PlayerCarManager.cpp:382
+msgid "DOWNFORCE"
+msgstr ""
+
+#. Dune buggy vehicle name
+#: src/common/PlayerCarManager.cpp:544
+msgid "DUNE BUGGY"
+msgstr ""
+
+#. Ask the user if the user really wants to exit
+#: src/common/MainMenuSelectCar.cpp:419
+msgid "Do you really want to exit?"
+msgstr ""
+
+#. Upgrade description for downforce (rally car, f1 car etc)., pushes the car downwards the faster you go
+#: src/common/PlayerCarManager.cpp:303 src/common/PlayerCarManager.cpp:383
+msgid ""
+"Down force pushes your car downwards when the speed increases improving "
+"traction."
+msgstr ""
+
+#. Highway level description
+#: src/common/Stage.cpp:925
+msgid ""
+"Driving a vehicle built for offroad is quite an experience on tarmac "
+"surface. In this level you may get far and fast, but gasoline is a limited "
+"resource."
+msgstr ""
+
+#. Upgrade title
+#. Title for vehicle engine upgrade
+#. Upgrade title
+#: src/common/PlayerCarManager.cpp:23 src/common/PlayerCarManager.cpp:65
+#: src/common/PlayerCarManager.cpp:108 src/common/PlayerCarManager.cpp:149
+#: src/common/PlayerCarManager.cpp:190 src/common/PlayerCarManager.cpp:233
+#: src/common/PlayerCarManager.cpp:278 src/common/PlayerCarManager.cpp:318
+#: src/common/PlayerCarManager.cpp:359 src/common/PlayerCarManager.cpp:399
+#: src/common/PlayerCarManager.cpp:443 src/common/PlayerCarManager.cpp:482
+#: src/common/PlayerCarManager.cpp:550 src/common/PlayerCarManager.cpp:615
+msgid "ENGINE"
+msgstr ""
+
+#. Exit button text (user exits the game session)
+#. Exit button text
+#: src/common/GameLayer.cpp:570 src/common/GameLayer.cpp:867
+msgid "EXIT"
+msgstr ""
+
+#. Title for asking if the user really wants to exit
+#. Ask for an exit
+#: src/common/GameLayer.cpp:862 src/common/MainMenuSelectCar.cpp:417
+msgid "EXIT?"
+msgstr ""
+
+#. Mountain level description
+#: src/common/Stage.cpp:974
+msgid ""
+"Edgy mountain that is very hard to overcome. Highly upgraded vehicle "
+"recommended!"
+msgstr ""
+
+#. Beach level description
+#: src/common/Stage.cpp:995
+msgid ""
+"Enjoy the view and feel the ocean breeze at the hilltop in this relaxing map."
+msgstr ""
+
+#. Description for asking if the user really wants to exit
+#: src/common/GameLayer.cpp:864
+msgid ""
+"Exit will discard current progress, but you get to keep all the coins you "
+"have collected so far.\n"
+"\n"
+"Are you sure you want to exit to menu?"
+msgstr ""
+
+#. Arctic level description
+#: src/common/Stage.cpp:918
+msgid ""
+"Experience the slippery snow conditions! In order to get to the northern "
+"parts of Finland you need a cargo plane that carries the car."
+msgstr ""
+
+#. Forest level title
+#: src/common/Stage.cpp:965
+msgid "FOREST"
+msgstr ""
+
+#. Friction reduction upgrade title
+#: src/common/PlayerCarManager.cpp:630
+msgid "FRICTION"
+msgstr ""
+
+#. Upgrade title
+#. Title for fuel upgrade
+#. Upgrade title
+#: src/common/PlayerCarManager.cpp:164 src/common/PlayerCarManager.cpp:256
+#: src/common/PlayerCarManager.cpp:341 src/common/PlayerCarManager.cpp:425
+#: src/common/PlayerCarManager.cpp:463 src/common/PlayerCarManager.cpp:505
+#: src/common/PlayerCarManager.cpp:571
+msgid "FUEL"
+msgstr ""
+
+#. Button text for button that takes the user into a screen where in-app purchases are available
+#. Text for button where user can purchase more coins
+#: src/common/MainMenuCar.cpp:143 src/common/MainMenuSelectCar.cpp:167
+#: src/common/MainMenuSelectCar.cpp:303 src/common/MainMenuSelectStage.cpp:172
+#: src/common/MainMenuSelectStage.cpp:292 src/common/MenuUpgradeButton.cpp:125
+msgid "GET COINS"
+msgstr ""
+
+#. Menu title for in-app purchases where user can get more coins
+#: src/common/InAppPurchaseMenu.cpp:75
+msgid "GET MORE COINS"
+msgstr ""
+
+#. Mars level description
+#: src/common/Stage.cpp:946
+msgid ""
+"Go even further in our galaxy and explore the Mars. Go through tunnels and "
+"experience the different gravity."
+msgstr ""
+
+#. Moon level description
+#: src/common/Stage.cpp:939
+msgid ""
+"Go to the place no hillbilly has been ever before. Different gravity allows "
+"a whole new set of tricks to experience!"
+msgstr ""
+
+#. Snowmobile vehicle description
+#: src/common/PlayerCarManager.cpp:439
+msgid ""
+"Great traction in the ice and snow. Fully upgraded it becomes a fun vehicle "
+"for other levels too!"
+msgstr ""
+
+#. Highway level title
+#: src/common/Stage.cpp:923
+msgid "HIGHWAY"
+msgstr ""
+
+#. Hover craft vehicle name
+#: src/common/PlayerCarManager.cpp:609
+msgid "HOVERCRAFT"
+msgstr ""
+
+#. Formula-1 car like race car description
+#: src/common/PlayerCarManager.cpp:274
+msgid ""
+"High power and aerodynamic ultimate hill climbing vehicle. Upgrade downforce "
+"to make this car follow the road like a magnet."
+msgstr ""
+
+#. Aerodynamics upgrade description
+#: src/common/PlayerCarManager.cpp:639
+msgid ""
+"Improved aerodynamics reduces air resistance and results in higher top speed."
+msgstr ""
+
+#. Friction reduction upgrade description (allows the vehicle to move faster)
+#: src/common/PlayerCarManager.cpp:632
+msgid ""
+"Improved cushion material reduces friction and results in higher ground "
+"speed."
+msgstr ""
+
+#. Engine upgrade description
+#: src/common/PlayerCarManager.cpp:25 src/common/PlayerCarManager.cpp:67
+#: src/common/PlayerCarManager.cpp:110 src/common/PlayerCarManager.cpp:151
+#: src/common/PlayerCarManager.cpp:192 src/common/PlayerCarManager.cpp:235
+#: src/common/PlayerCarManager.cpp:280 src/common/PlayerCarManager.cpp:320
+#: src/common/PlayerCarManager.cpp:361 src/common/PlayerCarManager.cpp:402
+#: src/common/PlayerCarManager.cpp:445 src/common/PlayerCarManager.cpp:484
+#: src/common/PlayerCarManager.cpp:551 src/common/PlayerCarManager.cpp:617
+msgid ""
+"Improved engine parts result in power increase. Higher horsepower helps you "
+"climb hills and make longer jumps and tricks for more bonuses."
+msgstr ""
+
+#. Tire upgrade description
+#: src/common/PlayerCarManager.cpp:41 src/common/PlayerCarManager.cpp:83
+#: src/common/PlayerCarManager.cpp:126 src/common/PlayerCarManager.cpp:159
+#: src/common/PlayerCarManager.cpp:208 src/common/PlayerCarManager.cpp:251
+#: src/common/PlayerCarManager.cpp:296 src/common/PlayerCarManager.cpp:377
+#: src/common/PlayerCarManager.cpp:500 src/common/PlayerCarManager.cpp:566
+msgid ""
+"Improved tires result in better traction and better power delivery to the "
+"ground."
+msgstr ""
+
+#. Tire upgrade description
+#. Description for tracks / tires upgrade (improves traction in the tank, snow mobile etc)
+#: src/common/PlayerCarManager.cpp:336 src/common/PlayerCarManager.cpp:420
+#: src/common/PlayerCarManager.cpp:460
+msgid ""
+"Improved tracks result in better traction and better power delivery to the "
+"ground."
+msgstr ""
+
+#. 4WD upgrade description
+#: src/common/PlayerCarManager.cpp:48 src/common/PlayerCarManager.cpp:132
+#: src/common/PlayerCarManager.cpp:215
+msgid ""
+"Improving all wheel drive system will result in better traction and better "
+"handling of the vehicle."
+msgstr ""
+
+#. Fuel upgrade description
+#: src/common/PlayerCarManager.cpp:165 src/common/PlayerCarManager.cpp:258
+#: src/common/PlayerCarManager.cpp:343 src/common/PlayerCarManager.cpp:428
+#: src/common/PlayerCarManager.cpp:464 src/common/PlayerCarManager.cpp:507
+#: src/common/PlayerCarManager.cpp:573
+msgid "Improving the fuel tank size makes it possible to drive further."
+msgstr ""
+
+#. Tank vehicle description
+#: src/common/PlayerCarManager.cpp:395
+msgid "It's a tank!"
+msgstr ""
+
+#. Mudpool level description
+#: src/common/Stage.cpp:981
+msgid "It's time to get dirty!"
+msgstr ""
+
+#. Alien planet level description (weird slimy planet with very slippery surface)
+#: src/common/Stage.cpp:953
+msgid ""
+"It's time to go beyond the galaxy to an alien planet. This slimy sloped "
+"planet gives you a challenge of its own."
+msgstr ""
+
+#. Players default car, the jeep
+#: src/common/PlayerCarManager.cpp:17
+msgid "JEEP"
+msgstr ""
+
+#. Tractor stability upgrade description
+#: src/common/PlayerCarManager.cpp:173
+msgid "Keeps the tractor from rolling over on steep hills."
+msgstr ""
+
+#. Translated name of the language (eg. English, Deutsch, Suomi)
+#: src/common/LanguageMenu.cpp:113
+msgid "LANGUAGE NAME"
+msgstr "Suomi"
+
+#. Upgrade level progress
+#: src/common/MenuUpgradeButton.cpp:71
+#, c-format
+msgid "LEVEL %d / %d"
+msgstr ""
+
+#. Locked text shown for items that are still locked (not available until purchased)
+#: src/common/MainMenuSelectCar.cpp:119 src/common/MainMenuSelectStage.cpp:129
+msgid "LOCKED"
+msgstr ""
+
+#. Shows the next goal for a level in level selection screen. Shows also the best score user has made in that level: For example: "Level 2: Reach 400m\n    Best: 352m ". Please try to preserver the spaces, %d, %s and \n
+#: src/common/MainMenuSelectStage.cpp:98
+#, c-format
+msgid ""
+"Level %d: reach %dm\n"
+"    Best: %dm "
+msgstr ""
+
+#. Suspension upgrade description
+#: src/common/PlayerCarManager.cpp:33 src/common/PlayerCarManager.cpp:75
+#: src/common/PlayerCarManager.cpp:118 src/common/PlayerCarManager.cpp:200
+#: src/common/PlayerCarManager.cpp:288 src/common/PlayerCarManager.cpp:369
+#: src/common/PlayerCarManager.cpp:558
+msgid ""
+"Lower weight point and improved shock absorption improves stability at high "
+"speeds and makes the car more stable on bumps."
+msgstr ""
+
+#. Suspension upgrade description
+#: src/common/PlayerCarManager.cpp:411
+msgid ""
+"Lower weight point and improved shock absorption improves stability at high "
+"speeds and makes the tank more stable on bumps."
+msgstr ""
+
+#. Suspension upgrade description
+#: src/common/PlayerCarManager.cpp:243 src/common/PlayerCarManager.cpp:328
+#: src/common/PlayerCarManager.cpp:453 src/common/PlayerCarManager.cpp:492
+msgid ""
+"Lower weight point and improved shock absorption improves stability at high "
+"speeds and makes the vehicle more stable on bumps."
+msgstr ""
+
+#. Mars level title (yes, the mars planet)
+#: src/common/Stage.cpp:944
+msgid "MARS"
+msgstr ""
+
+#. Max level (user has already reached the maximum level available)
+#: src/common/MenuUpgradeButton.cpp:82
+msgid "MAX LEVEL"
+msgstr ""
+
+#. Title for a window if user has already upgraded something to its maximum level
+#: src/common/MenuUpgradeButton.cpp:101
+msgid "MAXIMUM LEVEL"
+msgstr ""
+
+#. Mid-air control upgrade (allows the player to have more responsive control when the vehicle is flying/jumping)
+#: src/common/PlayerCarManager.cpp:88
+msgid "MID-AIR CONTROL"
+msgstr ""
+
+#. Monster truck name
+#: src/common/PlayerCarManager.cpp:102
+msgid "MONSTER TRUCK"
+msgstr ""
+
+#. Moon level title
+#: src/common/Stage.cpp:937
+msgid "MOON"
+msgstr ""
+
+#. Button which takes the user into more fingersoft apps and features
+#: src/common/MainMenuSelectCar.cpp:174
+msgid "MORE"
+msgstr ""
+
+#. Motocross bike vehicle name
+#: src/common/PlayerCarManager.cpp:59
+msgid "MOTOCROSS BIKE"
+msgstr ""
+
+#. Mountain level title
+#: src/common/Stage.cpp:972
+msgid "MOUNTAIN"
+msgstr ""
+
+#. Mudpool level title
+#: src/common/Stage.cpp:979
+msgid "MUDPOOL"
+msgstr ""
+
+#. Mid-air control upgrade description
+#: src/common/PlayerCarManager.cpp:90
+msgid ""
+"Makes your bike turn faster in mid-air making tricks easier and allow more "
+"control on landing."
+msgstr ""
+
+#. Button text for taking the user to the next menu screen
+#: src/common/MainMenuSelectCar.cpp:181 src/common/MainMenuSelectStage.cpp:181
+msgid "NEXT"
+msgstr ""
+
+#. Button text for a negative answer
+#: src/common/MainMenuSelectCar.cpp:425
+msgid "NO"
+msgstr ""
+
+#. OK button
+#: src/common/MenuUpgradeButton.cpp:106 src/common/MenuUpgradeButton.cpp:135
+msgid "OK"
+msgstr ""
+
+#. Rally car vehicle description
+#: src/common/PlayerCarManager.cpp:354
+msgid ""
+"Powerful engine and downforce upgraded provide the most ultimate combination "
+"for hill climbing."
+msgstr ""
+
+#. Quad bike vehicle name
+#: src/common/PlayerCarManager.cpp:184
+msgid "QUAD BIKE"
+msgstr ""
+
+#. Dune buggy description
+#: src/common/PlayerCarManager.cpp:546
+msgid "Quick, good traction and a handy hill climbing vehicle!"
+msgstr ""
+
+#. Formula-1 car like race car name
+#: src/common/PlayerCarManager.cpp:272
+msgid "RACE CAR"
+msgstr ""
+
+#. Rally car vehicle name
+#: src/common/PlayerCarManager.cpp:352
+msgid "RALLY CAR"
+msgstr ""
+
+#. Restart button text (user restarts the game session)
+#. Restart game session button
+#: src/common/GameLayer.cpp:560 src/common/GameLayer.cpp:888
+msgid "RESTART"
+msgstr ""
+
+#. Title for asking if the user really wants to restart
+#: src/common/GameLayer.cpp:883
+msgid "RESTART?"
+msgstr ""
+
+#. Resume button text (user resumes to game from pause menu)
+#: src/common/GameLayer.cpp:550
+msgid "RESUME"
+msgstr ""
+
+#. Motocross bike vehicle description
+#: src/common/PlayerCarManager.cpp:61
+msgid "Race the hills with this impressive turboed motocross bike."
+msgstr ""
+
+#. Diesel track vehicle description (decent turbo diesel truck that puts out black smoke when driving hard)
+#: src/common/PlayerCarManager.cpp:314
+msgid ""
+"Ready for the super turbo whistle and black smoke? With powerful engine and "
+"large wheelbase this really is an unique experience!"
+msgstr ""
+
+#. Description for asking if the user really wants to restart
+#: src/common/GameLayer.cpp:885
+msgid ""
+"Restart will discard current progress, but you get to keep all the coins you "
+"have collected so far.\n"
+"\n"
+"Are you sure you want to restart?"
+msgstr ""
+
+#. Stability upgrade on hovercraft, improves overal vehicle stability when climbing high hills
+#: src/common/PlayerCarManager.cpp:625
+msgid "Rotating engine improves stability when climbing steep hills."
+msgstr ""
+
+#. Menu title for language menu where the user can select the used language
+#: src/common/LanguageMenu.cpp:33
+msgid "SELECT LANGUAGE"
+msgstr ""
+
+#. Title of the screen where user selects the level/stage to play in
+#: src/common/MainMenuSelectStage.cpp:59
+msgid "SELECT STAGE"
+msgstr ""
+
+#. Menu title for car selection screen
+#: src/common/MainMenuSelectCar.cpp:54
+msgid "SELECT VEHICLE"
+msgstr ""
+
+#. Snowmobile vehicle name
+#: src/common/PlayerCarManager.cpp:437
+msgid "SNOW MOBILE"
+msgstr ""
+
+#. Upgrade title
+#: src/common/PlayerCarManager.cpp:171 src/common/PlayerCarManager.cpp:623
+msgid "STABILITY"
+msgstr ""
+
+#: src/common/MainMenuCar.cpp:122
+msgid "STAGE"
+msgstr ""
+
+#: src/common/MainMenuCar.cpp:149
+msgid "START "
+msgstr ""
+
+#. Diesel track vehicle name (decent turbo diesel truck that puts out black smoke when driving hard)
+#: src/common/PlayerCarManager.cpp:312
+msgid "SUPER DIESEL 4X4"
+msgstr ""
+
+#. Upgrade title
+#. Title for vehicle suspension upgrade
+#. Upgrade title
+#: src/common/PlayerCarManager.cpp:31 src/common/PlayerCarManager.cpp:73
+#: src/common/PlayerCarManager.cpp:116 src/common/PlayerCarManager.cpp:198
+#: src/common/PlayerCarManager.cpp:241 src/common/PlayerCarManager.cpp:286
+#: src/common/PlayerCarManager.cpp:326 src/common/PlayerCarManager.cpp:367
+#: src/common/PlayerCarManager.cpp:408 src/common/PlayerCarManager.cpp:451
+#: src/common/PlayerCarManager.cpp:490 src/common/PlayerCarManager.cpp:557
+msgid "SUSPENSION"
+msgstr ""
+
+#. Arctic cave description
+#: src/common/Stage.cpp:960
+msgid "Slippery arctic cave is something different to try."
+msgstr ""
+
+#: src/common/MainMenuCar.cpp:130
+msgid "Stage unlock available! "
+msgstr ""
+
+#. Tank vehicle name
+#: src/common/PlayerCarManager.cpp:393
+msgid "TANK"
+msgstr ""
+
+#. Upgrade title
+#. Tires upgrade title
+#. Upgrade title
+#: src/common/PlayerCarManager.cpp:39 src/common/PlayerCarManager.cpp:81
+#: src/common/PlayerCarManager.cpp:124 src/common/PlayerCarManager.cpp:157
+#: src/common/PlayerCarManager.cpp:206 src/common/PlayerCarManager.cpp:249
+#: src/common/PlayerCarManager.cpp:294 src/common/PlayerCarManager.cpp:334
+#: src/common/PlayerCarManager.cpp:375 src/common/PlayerCarManager.cpp:498
+#: src/common/PlayerCarManager.cpp:564
+msgid "TIRES"
+msgstr ""
+
+#. Tourist bus where people ride in the bus (vehicle name)
+#: src/common/PlayerCarManager.cpp:227
+msgid "TOURIST BUS"
+msgstr ""
+
+#. Title for tracks / tires upgrade (improves traction in the tank, snow mobile etc)
+#. Upgrade title
+#: src/common/PlayerCarManager.cpp:417 src/common/PlayerCarManager.cpp:459
+msgid "TRACKS"
+msgstr ""
+
+#. Tractor vehicle name
+#: src/common/PlayerCarManager.cpp:142
+msgid "TRACTOR"
+msgstr ""
+
+#. 6-wheel truck vehicle name
+#: src/common/PlayerCarManager.cpp:476
+msgid "TRUCK"
+msgstr ""
+
+#. Cave level description
+#: src/common/Stage.cpp:932
+msgid ""
+"Take an adventure into the treasure cave. It's hard to approach the bumps "
+"without hitting the ceiling. Gasoline is a limited resource in a cave."
+msgstr ""
+
+#. Tractor vehicle description
+#: src/common/PlayerCarManager.cpp:144
+msgid ""
+"The tractor is slow and heavy but has great traction and plenty of torque "
+"(and a tendency to roll over in steep terrain). Not recommended for caves."
+msgstr ""
+
+#. Forest level description (the user has to drive through the trees in the forest)
+#: src/common/Stage.cpp:967
+msgid ""
+"The trees arent just for decoration, you'll have to drive through them. "
+"Highly upgraded vehicle recommended!"
+msgstr ""
+
+#. Button text for unlocking an item
+#: src/common/MainMenuSelectCar.cpp:327 src/common/MainMenuSelectStage.cpp:302
+msgid "UNLOCK"
+msgstr ""
+
+#. Title for unlocking something, please preserve %s, it will be replaced by the item name user is going to unlock
+#: src/common/MainMenuSelectCar.cpp:291 src/common/MainMenuSelectCar.cpp:315
+#: src/common/MainMenuSelectStage.cpp:288
+#: src/common/MainMenuSelectStage.cpp:298
+#, c-format
+msgid "UNLOCK %s? "
+msgstr ""
+
+#: src/common/MenuUpgradeButton.cpp:144
+msgid "UPGRADE"
+msgstr ""
+
+#: src/common/MainMenuCar.cpp:163
+#, c-format
+msgid "UPGRADE %s?"
+msgstr ""
+
+#. m_pMenu = CCMenu::create();
+#: src/common/MainMenuSelectStage.cpp:177
+msgid "VEHICLE"
+msgstr ""
+
+#. Volcano level title
+#: src/common/Stage.cpp:986
+msgid "VOLCANO"
+msgstr ""
+
+#. 6-wheel truck vehicle description
+#: src/common/PlayerCarManager.cpp:478
+msgid ""
+"Weight, power, turbo whistle and attitude! And upgradeable very large fuel "
+"tank!"
+msgstr ""
+
+#. Monster truck description
+#: src/common/PlayerCarManager.cpp:104
+msgid ""
+"With large wheels and a supercharged engine this car really gives a new "
+"experience for Hill Climbing!"
+msgstr ""
+
+#. Button text for a positive answer
+#: src/common/MainMenuSelectCar.cpp:422
+msgid "YES"
+msgstr ""
+
+#. Description for a window if user has already upgraded something to its maximum level
+#: src/common/MenuUpgradeButton.cpp:103
+msgid "You have already upgraded this to the maximum level available."
+msgstr ""

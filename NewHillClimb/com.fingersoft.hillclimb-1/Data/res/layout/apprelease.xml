@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="left" android:id="@id/apprelease_app_icon" android:paddingLeft="10.0dip" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="72.0dip" android:layout_height="72.0dip" android:height="72.0dip" android:width="72.0dip" />
+        <TextView android:textSize="30.0dip" android:layout_gravity="center" android:id="@id/apprelease_app_name" android:paddingLeft="10.0dip" android:paddingTop="0.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Application name" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:textSize="18.0dip" android:layout_gravity="left" android:id="@id/apprelease_app_desc" android:paddingLeft="20.0dip" android:paddingTop="5.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Description asfd  asfd asf safd a sfdasfd e ey eyh yt yewr eyr eryg ery ery aegr gaer aegr  aegrergegarager agagareggaergrea?" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:paddingTop="10.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:gravity="center" android:layout_gravity="center" android:id="@id/apprelease_button_yes" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="Yes" android:layout_weight="1.0" />
+        <Button android:gravity="center" android:layout_gravity="center" android:id="@id/apprelease_button_never" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="Never" android:layout_weight="1.0" />
+        <Button android:gravity="center" android:layout_gravity="center" android:id="@id/apprelease_button_no" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="Not now" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

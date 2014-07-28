@@ -1,0 +1,106 @@
+
+HILL CLIMB RACING
+
+Copyright 2012-2014 Fingersoft
+www.fingersoft.net
+
+
+CREW
+
+Programming:
+Toni Fingerroos
+Teemu Närhi
+Marko Brockman
+Esa Kauppinen
+Niklas Kumpulainen
+Lee Stoddart
+
+Graphics:
+Pia Turunen
+Samuel Hyry
+Tuomas Soukka
+Kimmo Äijälä
+Henri Heikkinen
+Thomas Wahlberg
+
+Testing:
+Pia Turunen
+Sami-Jukka Piippo
+Thomas Heinze
+
+Additional design and testing:
+Samuli Polvi
+Joel Kaukaoja
+
+
+MUSIC
+
+www.playonloop.com/2010-music-loops/lucky-cop/
+www.playonloop.com/2011-music-loops/funk-break/
+
+
+SOUNDS
+
+Coin pickup:
+http://www.freesound.org/people/fins/sounds/146723/
+
+Bone crack:
+http://www.freesound.org/people/Halleck/sounds/21914/
+
+Text splash (bonuses etc):
+http://www.freesound.org/people/bennychico11/sounds/29542/
+
+Menu click:
+http://www.freesound.org/people/NenadSimic/sounds/157539/
+
+Fuel low warning:
+http://www.freesound.org/people/gmtechb/sounds/49166/
+
+Purchase sound:
+http://www.freesound.org/people/Benboncan/sounds/91924/
+
+Camera sound:
+http://www.freesound.org/people/crk365/sounds/42862/
+
+Train engine:
+http://freesound.org/people/Benboncan/sounds/58293/
+
+Train horn:
+http://freesound.org/people/eliasheuninck/sounds/170848/
+
+Dragster engine sounds:
+http://www.freesound.org/people/lonemonk/sounds/156642/
+http://www.freesound.org/people/Gx3Gary/sounds/133831/
+
+Police Car sounds:
+http://freesound.org/people/Julien%20Nicolas/sounds/155526/
+http://freesound.org/people/vlammenos/sounds/52906/
+http://freesound.org/people/CGEffex/sounds/99960/
+http://freesound.org/people/Tuben/sounds/161388/
+
+Ambulance sounds:
+http://www.freesound.org/people/sonsdebarcelona/sounds/72711/
+
+Wrench:
+http://freesound.org/people/gelo_papas/sounds/63125/
+
+Car engine sounds:
+Developers with a cheap mic :)
+
+
+OTHER RESOURCES
+
+Cocos2D-x:
+http://www.cocos2d-x.org
+
+Box2D:
+http://box2d.org
+
+Stage lock icon:
+http://newidols.ru/
+
+
+
+Thanks for playing!
+
+We hope you enjoy the game!

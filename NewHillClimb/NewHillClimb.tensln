@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TenSolution Version="2">
+  <Projects>
+    <Project Value="com.fingersoft.hillclimb-1\com.fingersoft.hillclimb-1.apkproject" />
+  </Projects>
+  <Settings>
+    <Setting Name="solutionname" Value="NewHillClimb" />
+  </Settings>
+</TenSolution>

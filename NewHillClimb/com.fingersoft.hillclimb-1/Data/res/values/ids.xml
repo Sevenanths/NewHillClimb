@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="morelist">false</item>
+    <item type="id" name="about_item_icon">false</item>
+    <item type="id" name="about_item_name">false</item>
+    <item type="id" name="about_item_desc">false</item>
+    <item type="id" name="adview">false</item>
+    <item type="id" name="banner">false</item>
+    <item type="id" name="madad">false</item>
+    <item type="id" name="mopubad">false</item>
+    <item type="id" name="apprelease_app_icon">false</item>
+    <item type="id" name="apprelease_app_name">false</item>
+    <item type="id" name="apprelease_app_desc">false</item>
+    <item type="id" name="apprelease_button_yes">false</item>
+    <item type="id" name="apprelease_button_never">false</item>
+    <item type="id" name="apprelease_button_no">false</item>
+    <item type="id" name="ScrollView01">false</item>
+    <item type="id" name="textView">false</item>
+</resources>

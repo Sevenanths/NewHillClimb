@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:mad="http://schemas.android.com/apk/res/com.fingersoft.hillclimb">
+    <de.madvertise.android.sdk.MadvertiseView android:id="@id/madad" android:layout_width="fill_parent" android:layout_height="fill_parent" mad:textColor="#ffffffff" mad:isTestMode="false" mad:bannerType="portrait,landscape,mma" mad:animation="none" mad:placement_type="inline" mad:mraid="false" />
+</RelativeLayout>

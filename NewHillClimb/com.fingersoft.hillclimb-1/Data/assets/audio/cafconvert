@@ -1,0 +1,31 @@
+#!/bin/bash
+#
+# Le Fabulous Fingersoft Caf Converter
+#
+# Usage: cafconvert foo.ogg
+#
+# Prerequirements: 
+#  1) Install ffmpeg http://www.ffmpeg.org/download.html
+#  2) Copy ffmpeg binary to /usr/bin
+#  3) Have phun!
+#
+
+if [ $# -eq 0 ]
+then
+    echo "Usage: cafconvert foo.ogg"
+    exit
+fi
+
+if [ ! -f $1 ]
+then
+    echo "Input file not found: $1"
+    exit
+fi
+
+SOURCE=$1
+DEST=../../proj.ios/resources/audio/${1%%.*}.caf
+
+echo $SOURCE
+echo $DEST
+
+ffmpeg -i $SOURCE $DEST
